@@ -26,10 +26,11 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
+![web version hovered](https://github.com/kevinozyx/3-column-preview-card-component-main/blob/main/solution/Web%20version%20-%20hovered.png)
 
-solution/Web version - hovered.png
-solution/Web version - unhovered.png
-solution/Mobile version.pdf
+![web version unhovered](https://github.com/kevinozyx/3-column-preview-card-component-main/blob/main/solution/Web%20version%20-%20unhovered.png)
+
+![mobile version](https://github.com/kevinozyx/3-column-preview-card-component-main/blob/main/solution/Mobile%20version.pdf)
 
 ### Links
 
