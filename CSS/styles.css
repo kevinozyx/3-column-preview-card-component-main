@@ -20,7 +20,8 @@ p {
 .car-flexbox{
   /* border: 5px solid green; */
   display: flex;
-  width: 60%;
+  flex-flow: row wrap;
+  width: 65%;
   margin: 5% auto;
 }
 
@@ -28,18 +29,21 @@ p {
   background-color: orange;
   background-color: hsl(31, 77%, 52%);
   padding: 5%;
+  flex: 12rem;
 }
 
 .SUV-box{
   background-color: cyan;
   background-color: hsl(184, 100%, 22%);
     padding: 5%;
+      flex: 12rem;
 }
 
 .luxury-box{
   background-color: #008B8B;
   background-color: hsl(179, 100%, 13%);
     padding: 5%;
+      flex: 12rem;
 }
 
 .learn-more {
