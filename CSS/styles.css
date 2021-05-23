@@ -1,0 +1,113 @@
+body{
+  font-size: 15px;
+  /* border: 5px solid black; */
+  width: 100%;
+  margin: 0;
+}
+
+h1{
+  color: white;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+p {
+  font-family: "Lexend Deca", serif;
+  color: white;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.car-flexbox{
+  /* border: 5px solid green; */
+  display: flex;
+  width: 60%;
+  margin: 5% auto;
+}
+
+.sedan-box{
+  background-color: orange;
+  background-color: hsl(31, 77%, 52%);
+  padding: 5%;
+}
+
+.SUV-box{
+  background-color: cyan;
+  background-color: hsl(184, 100%, 22%);
+    padding: 5%;
+}
+
+.luxury-box{
+  background-color: #008B8B;
+  background-color: hsl(179, 100%, 13%);
+    padding: 5%;
+}
+
+.learn-more {
+  margin: 20px 20px 20px 0;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
+   height: 50px;
+   line-height: 50px;
+   font-family: "Lexend Deca", serif;
+   width: 150px;
+   font-size: 15px;
+   padding: 0;
+   border: solid white 2px;
+   border: solid hsl(0, 0%, 95%) 2px;
+   background-color: white;
+   background-color: hsl(0, 0%, 95%);
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+#LM1{
+  color: orange;
+  color:hsl(31, 77%, 52%);
+}
+
+#LM2{
+  color: cyan;
+  color: hsl(184, 100%, 22%);;
+}
+
+#LM3{
+  color: #008B8B;
+  color:hsl(179, 100%, 13%);
+}
+
+#LM1:hover{
+  color: white;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+#LM2:hover{
+  color: white;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+#LM3:hover{
+  color: white;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.learn-more:hover {
+  border: solid white 2px;
+   border: solid hsl(0, 0%, 95%) 2px;
+   background-color: transparent;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
+   text-decoration: none;
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: blue;
+  color: hsl(228, 45%, 44%);
+}
